@@ -1,0 +1,13 @@
+/* 
+  HttpStateCode.strings
+  NetRequestDemo
+
+  Created by yuyou on 2018/9/4.
+  Copyright © 2018年 hengtiansoft. All rights reserved.
+*/
+"400"="Because of incorrect syntax format, the server can not understand this request.";
+"401"="Please Login";
+"401-1"="User information is invalid. Please login again";
+"403"="No access is allowed. Please contact the server administrator.";
+"404"="Interface does not exist";
+"500"="Internal server error";

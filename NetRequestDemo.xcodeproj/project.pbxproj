@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09387B12FD70E3EC5E275FE2 /* libPods-NetRequestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD6890BF9E319321A2A8375 /* libPods-NetRequestDemoTests.a */; };
+		122580E70F95872A8429D4DD /* libPods-NetRequestDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CEEF00AF9FB830CDC5CBD1 /* libPods-NetRequestDemoUITests.a */; };
+		24B6F5A67571056CC4DA6596 /* libPods-NetRequestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B31469FBFB0587AEA36FF5DB /* libPods-NetRequestDemo.a */; };
 		BC9367EA213D1D5000A25C11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9367E9213D1D5000A25C11 /* AppDelegate.m */; };
 		BC9367ED213D1D5000A25C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9367EC213D1D5000A25C11 /* ViewController.m */; };
 		BC9367F0213D1D5000A25C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9367EE213D1D5000A25C11 /* Main.storyboard */; };
@@ -15,6 +18,14 @@
 		BC9367F8213D1D5200A25C11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9367F7213D1D5200A25C11 /* main.m */; };
 		BC936802213D1D5200A25C11 /* NetRequestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC936801213D1D5200A25C11 /* NetRequestDemoTests.m */; };
 		BC93680D213D1D5200A25C11 /* NetRequestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93680C213D1D5200A25C11 /* NetRequestDemoUITests.m */; };
+		BC936824213D1FEC00A25C11 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93681B213D1FEB00A25C11 /* Reachability.m */; };
+		BC936825213D1FEC00A25C11 /* WebService_Base.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93681C213D1FEB00A25C11 /* WebService_Base.m */; };
+		BC936826213D1FEC00A25C11 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93681D213D1FEB00A25C11 /* BaseResponse.m */; };
+		BC936827213D1FEC00A25C11 /* NetWorkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BC936822213D1FEB00A25C11 /* NetWorkObserver.m */; };
+		BC936845213E600D00A25C11 /* ApplicationStateCode.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC936847213E600D00A25C11 /* ApplicationStateCode.strings */; };
+		BC93684B213E63D700A25C11 /* HttpStateCode.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC93684D213E63D700A25C11 /* HttpStateCode.strings */; };
+		BC936852213E67F300A25C11 /* YYLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC936851213E67F300A25C11 /* YYLanguageTool.m */; };
+		BC936855213E6D9A00A25C11 /* WebService_Risk.m in Sources */ = {isa = PBXBuildFile; fileRef = BC936854213E6D9A00A25C11 /* WebService_Risk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057E694407E32B8F2F972B42 /* Pods-NetRequestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemoTests/Pods-NetRequestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD6890BF9E319321A2A8375 /* libPods-NetRequestDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetRequestDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F0927C2FBE48E255D420C6 /* Pods-NetRequestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemoTests/Pods-NetRequestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		42CEEF00AF9FB830CDC5CBD1 /* libPods-NetRequestDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetRequestDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B695232B9D9467DB50CC8E8 /* Pods-NetRequestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemo/Pods-NetRequestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B263794D1B8FED9BAEC8C1A5 /* Pods-NetRequestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemo/Pods-NetRequestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B31469FBFB0587AEA36FF5DB /* libPods-NetRequestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetRequestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9367E5213D1D5000A25C11 /* NetRequestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetRequestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9367E8213D1D5000A25C11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC9367E9213D1D5000A25C11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +69,26 @@
 		BC936808213D1D5200A25C11 /* NetRequestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetRequestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC93680C213D1D5200A25C11 /* NetRequestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequestDemoUITests.m; sourceTree = "<group>"; };
 		BC93680E213D1D5200A25C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC93681B213D1FEB00A25C11 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BC93681C213D1FEB00A25C11 /* WebService_Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService_Base.m; sourceTree = "<group>"; };
+		BC93681D213D1FEB00A25C11 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		BC93681E213D1FEB00A25C11 /* NetWorkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkObserver.h; sourceTree = "<group>"; };
+		BC93681F213D1FEB00A25C11 /* ServerApiResponseCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerApiResponseCode.h; sourceTree = "<group>"; };
+		BC936820213D1FEB00A25C11 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BC936821213D1FEB00A25C11 /* WebService_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService_Base.h; sourceTree = "<group>"; };
+		BC936822213D1FEB00A25C11 /* NetWorkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkObserver.m; sourceTree = "<group>"; };
+		BC936823213D1FEB00A25C11 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		BC936828213D21C900A25C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC936846213E600D00A25C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ApplicationStateCode.strings; sourceTree = "<group>"; };
+		BC936848213E601200A25C11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ApplicationStateCode.strings"; sourceTree = "<group>"; };
+		BC93684C213E63D700A25C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HttpStateCode.strings; sourceTree = "<group>"; };
+		BC93684E213E63D800A25C11 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HttpStateCode.strings"; sourceTree = "<group>"; };
+		BC936850213E67F300A25C11 /* YYLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLanguageTool.h; sourceTree = "<group>"; };
+		BC936851213E67F300A25C11 /* YYLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLanguageTool.m; sourceTree = "<group>"; };
+		BC936853213E6D9A00A25C11 /* WebService_Risk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebService_Risk.h; sourceTree = "<group>"; };
+		BC936854213E6D9A00A25C11 /* WebService_Risk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebService_Risk.m; sourceTree = "<group>"; };
+		C001A0EF90EC5C8F9C53A866 /* Pods-NetRequestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemoUITests/Pods-NetRequestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAADE5BC010609960DBD0B7E /* Pods-NetRequestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetRequestDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetRequestDemoUITests/Pods-NetRequestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B6F5A67571056CC4DA6596 /* libPods-NetRequestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09387B12FD70E3EC5E275FE2 /* libPods-NetRequestDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +112,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122580E70F95872A8429D4DD /* libPods-NetRequestDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7219CC39B682B6FB766E325F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B263794D1B8FED9BAEC8C1A5 /* Pods-NetRequestDemo.debug.xcconfig */,
+				8B695232B9D9467DB50CC8E8 /* Pods-NetRequestDemo.release.xcconfig */,
+				057E694407E32B8F2F972B42 /* Pods-NetRequestDemoTests.debug.xcconfig */,
+				39F0927C2FBE48E255D420C6 /* Pods-NetRequestDemoTests.release.xcconfig */,
+				DAADE5BC010609960DBD0B7E /* Pods-NetRequestDemoUITests.debug.xcconfig */,
+				C001A0EF90EC5C8F9C53A866 /* Pods-NetRequestDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC9367DC213D1D5000A25C11 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				BC936800213D1D5200A25C11 /* NetRequestDemoTests */,
 				BC93680B213D1D5200A25C11 /* NetRequestDemoUITests */,
 				BC9367E6213D1D5000A25C11 /* Products */,
+				7219CC39B682B6FB766E325F /* Pods */,
+				E6760F57FC0A7EDED88C3AE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +157,14 @@
 		BC9367E7213D1D5000A25C11 /* NetRequestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC93681A213D1FEB00A25C11 /* NetRequest */,
 				BC9367E8213D1D5000A25C11 /* AppDelegate.h */,
 				BC9367E9213D1D5000A25C11 /* AppDelegate.m */,
 				BC9367EB213D1D5000A25C11 /* ViewController.h */,
 				BC9367EC213D1D5000A25C11 /* ViewController.m */,
+				BC936853213E6D9A00A25C11 /* WebService_Risk.h */,
+				BC936854213E6D9A00A25C11 /* WebService_Risk.m */,
+				BC936828213D21C900A25C11 /* PrefixHeader.pch */,
 				BC9367EE213D1D5000A25C11 /* Main.storyboard */,
 				BC9367F1213D1D5200A25C11 /* Assets.xcassets */,
 				BC9367F3213D1D5200A25C11 /* LaunchScreen.storyboard */,
@@ -132,6 +192,44 @@
 			path = NetRequestDemoUITests;
 			sourceTree = "<group>";
 		};
+		BC93681A213D1FEB00A25C11 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BC93684F213E67F300A25C11 /* YYLanguageTool */,
+				BC93681F213D1FEB00A25C11 /* ServerApiResponseCode.h */,
+				BC936823213D1FEB00A25C11 /* BaseResponse.h */,
+				BC93681D213D1FEB00A25C11 /* BaseResponse.m */,
+				BC93681E213D1FEB00A25C11 /* NetWorkObserver.h */,
+				BC936822213D1FEB00A25C11 /* NetWorkObserver.m */,
+				BC936820213D1FEB00A25C11 /* Reachability.h */,
+				BC93681B213D1FEB00A25C11 /* Reachability.m */,
+				BC936821213D1FEB00A25C11 /* WebService_Base.h */,
+				BC93681C213D1FEB00A25C11 /* WebService_Base.m */,
+				BC936847213E600D00A25C11 /* ApplicationStateCode.strings */,
+				BC93684D213E63D700A25C11 /* HttpStateCode.strings */,
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		BC93684F213E67F300A25C11 /* YYLanguageTool */ = {
+			isa = PBXGroup;
+			children = (
+				BC936850213E67F300A25C11 /* YYLanguageTool.h */,
+				BC936851213E67F300A25C11 /* YYLanguageTool.m */,
+			);
+			path = YYLanguageTool;
+			sourceTree = "<group>";
+		};
+		E6760F57FC0A7EDED88C3AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B31469FBFB0587AEA36FF5DB /* libPods-NetRequestDemo.a */,
+				2DD6890BF9E319321A2A8375 /* libPods-NetRequestDemoTests.a */,
+				42CEEF00AF9FB830CDC5CBD1 /* libPods-NetRequestDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC936811213D1D5200A25C11 /* Build configuration list for PBXNativeTarget "NetRequestDemo" */;
 			buildPhases = (
+				DB7E52D0C2558199A0239F3C /* [CP] Check Pods Manifest.lock */,
 				BC9367E1213D1D5000A25C11 /* Sources */,
 				BC9367E2213D1D5000A25C11 /* Frameworks */,
 				BC9367E3213D1D5000A25C11 /* Resources */,
@@ -156,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC936814213D1D5200A25C11 /* Build configuration list for PBXNativeTarget "NetRequestDemoTests" */;
 			buildPhases = (
+				C3E7D85C0E7FBEF27D5A573F /* [CP] Check Pods Manifest.lock */,
 				BC9367F9213D1D5200A25C11 /* Sources */,
 				BC9367FA213D1D5200A25C11 /* Frameworks */,
 				BC9367FB213D1D5200A25C11 /* Resources */,
@@ -174,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC936817213D1D5200A25C11 /* Build configuration list for PBXNativeTarget "NetRequestDemoUITests" */;
 			buildPhases = (
+				AF3EDC64809D66FFC551A49E /* [CP] Check Pods Manifest.lock */,
 				BC936804213D1D5200A25C11 /* Sources */,
 				BC936805213D1D5200A25C11 /* Frameworks */,
 				BC936806213D1D5200A25C11 /* Resources */,
@@ -217,6 +318,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BC9367DC213D1D5000A25C11;
 			productRefGroup = BC9367E6213D1D5000A25C11 /* Products */;
@@ -235,7 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC93684B213E63D700A25C11 /* HttpStateCode.strings in Resources */,
 				BC9367F5213D1D5200A25C11 /* LaunchScreen.storyboard in Resources */,
+				BC936845213E600D00A25C11 /* ApplicationStateCode.strings in Resources */,
 				BC9367F2213D1D5200A25C11 /* Assets.xcassets in Resources */,
 				BC9367F0213D1D5000A25C11 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +361,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AF3EDC64809D66FFC551A49E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetRequestDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E7D85C0E7FBEF27D5A573F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetRequestDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7E52D0C2558199A0239F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetRequestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9367E1213D1D5000A25C11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC9367ED213D1D5000A25C11 /* ViewController.m in Sources */,
+				BC936826213D1FEC00A25C11 /* BaseResponse.m in Sources */,
+				BC936852213E67F300A25C11 /* YYLanguageTool.m in Sources */,
+				BC936825213D1FEC00A25C11 /* WebService_Base.m in Sources */,
 				BC9367F8213D1D5200A25C11 /* main.m in Sources */,
+				BC936824213D1FEC00A25C11 /* Reachability.m in Sources */,
 				BC9367EA213D1D5000A25C11 /* AppDelegate.m in Sources */,
+				BC936827213D1FEC00A25C11 /* NetWorkObserver.m in Sources */,
+				BC936855213E6D9A00A25C11 /* WebService_Risk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +483,24 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		BC936847213E600D00A25C11 /* ApplicationStateCode.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC936846213E600D00A25C11 /* en */,
+				BC936848213E601200A25C11 /* zh-Hans */,
+			);
+			name = ApplicationStateCode.strings;
+			sourceTree = "<group>";
+		};
+		BC93684D213E63D700A25C11 /* HttpStateCode.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC93684C213E63D700A25C11 /* en */,
+				BC93684E213E63D800A25C11 /* zh-Hans */,
+			);
+			name = HttpStateCode.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -323,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -431,9 +618,12 @@
 		};
 		BC936812213D1D5200A25C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B263794D1B8FED9BAEC8C1A5 /* Pods-NetRequestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetRequestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = NetRequestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +637,12 @@
 		};
 		BC936813213D1D5200A25C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B695232B9D9467DB50CC8E8 /* Pods-NetRequestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetRequestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = NetRequestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +656,7 @@
 		};
 		BC936815213D1D5200A25C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057E694407E32B8F2F972B42 /* Pods-NetRequestDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +675,7 @@
 		};
 		BC936816213D1D5200A25C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F0927C2FBE48E255D420C6 /* Pods-NetRequestDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +694,7 @@
 		};
 		BC936818213D1D5200A25C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAADE5BC010609960DBD0B7E /* Pods-NetRequestDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetRequestDemoUITests/Info.plist;
@@ -516,6 +712,7 @@
 		};
 		BC936819213D1D5200A25C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C001A0EF90EC5C8F9C53A866 /* Pods-NetRequestDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetRequestDemoUITests/Info.plist;

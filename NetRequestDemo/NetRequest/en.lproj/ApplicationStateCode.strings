@@ -1,0 +1,36 @@
+/* 
+  ApplicationStateCode.strings
+  NetRequestDemo
+
+  Created by yuyou on 2018/9/4.
+  Copyright © 2018年 hengtiansoft. All rights reserved.
+*/
+"101001"="Username/email not found";
+"101002"="This username is already taken";
+"101003"="Username cannot contain spaces or special characters(Length:3~20)";
+"101004"="Invalid password format(Number+Letter & Length:8~20)";
+"101005"="This username/password is incorrect";
+"101006"="Invalid email format";
+"101007"="Incorrect verification code, please try again";
+"101008"="Device not authorized";
+"101009"="This email address is already taken";
+"101010"="Invalid invite code";
+"101011"="Invalid Ethernet address";
+"102001"="Repeated feedback";
+"102002"="Comment cannot be empty";
+"102003"="Click record failed";
+"102004"="Comment length is too long";
+"102005"="Risk details are too long";
+"102006"="Title text too long";
+"102007"="Coin name is too long";
+"102008"="Coin ticker is too long";
+"102009"="URL is too long";
+"103001"="Repeated feedback";
+"103002"="Comment cannot be empty";
+"103003"="Click record failed";
+"103004"="Comment length is too long";
+"104001"="Parameter does not exist";
+"104002"="Repeat addition add Market";
+"105001"="Goods does not exist";
+"105002"="Insufficient points";
+"105003"="Repeat voting";
