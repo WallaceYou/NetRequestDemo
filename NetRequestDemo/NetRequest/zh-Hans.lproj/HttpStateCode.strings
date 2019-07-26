@@ -3,7 +3,7 @@
   NetRequestDemo
 
   Created by yuyou on 2018/9/4.
-  Copyright © 2018年 hengtiansoft. All rights reserved.
+  Copyright © 2018年 yuyou. All rights reserved.
 */
 "400"="由于语法格式有误，服务器无法理解此请求";
 "401"="请先登录";

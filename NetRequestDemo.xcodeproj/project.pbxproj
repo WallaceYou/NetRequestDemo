@@ -629,7 +629,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -648,7 +648,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -666,7 +666,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetRequestDemo.app/NetRequestDemo";
@@ -685,7 +685,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetRequestDemo.app/NetRequestDemo";
@@ -703,7 +703,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NetRequestDemo;
@@ -721,7 +721,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.NetRequestDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.NetRequestDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NetRequestDemo;
